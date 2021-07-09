@@ -1,0 +1,15 @@
+package Programas;
+
+import Objeto.Lampada;
+
+public class progrlampada {
+
+	public static void main(String[] args) {
+		
+		Lampada lampada = new Lampada();
+		
+		lampada. = 
+
+	}
+
+}
