@@ -8,13 +8,19 @@ public class Carro {
 	public double capCombustivel;
 	public double consumoCombustivel;
 	
-	public void exibirAutonomia() {
+	public void exibirAutonomia() { // exemplo de metodo simples sem return;
 		System.out.println("A autonomia do carro é: " + capCombustivel * consumoCombustivel + " Km");
 	}
 	
-	public double obterAutonomia() {
+	public double obterAutonomia() { //exemplo de metodo simples com return;
 		
 		return capCombustivel *consumoCombustivel;
+	}
+	
+	public double calcularCombustivel(double km) { // exemplo de metodo simples com return e declarando parametro;
+		
+		double qtdCombustivel = km/consumoCombustivel;
+		return qtdCombustivel;
 	}
 	
 }

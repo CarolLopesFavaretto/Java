@@ -16,8 +16,11 @@ public class progcarro {
 		
 		System.out.println(van.marca);
 		System.out.println(van.modelo);
-		System.out.println("A autonomia do carro é: " +van.obterAutonomia() + "Km");
+		System.out.println("A autonomia do carro é: " +van.obterAutonomia() + "Km"); // metodo com return;
+		van.exibirAutonomia(); // metodo sem return
 		
+		System.out.println("A autonomia do carro é: " +van.calcularCombustivel(15) + "Km"); 
+		// metodo com return e declaração de parametro;
 		
 	}
 
